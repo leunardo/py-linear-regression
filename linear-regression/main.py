@@ -16,12 +16,15 @@ def calculate(points):
     sum_points = Point.sum_points(points)
     sum_square = Point.sum_square_points(points)
     sum_xy = Point.sum_xy(points)
-    equation_dividend = n * sum_square.x - sum_points.square().x
-    a = ((sum_points.y * sum_square.x) - (sum_points.x * sum_xy)) / equation_dividend
-    b = (n * sum_xy - (sum_points.x * sum_points.y)) / equation_dividend
+
+    equation_divider = n * sum_square.x - sum_points.square().x
+
+    a = ((sum_points.y * sum_square.x) - (sum_points.x * sum_xy)) / equation_divider
+    b = (n * sum_xy - (sum_points.x * sum_points.y)) / equation_divider
+
     print('-' * 90)
-    print(f'The sum of points {points} is:')
-    print(f'f(x) = {a} * x + {b}')
+    print(f'The sum of points { points } is:')
+    print(f'f(x) = { a } * x + { b }')
 
 if __name__ == '__main__':
     a = Point(2.3, 89)
@@ -30,8 +33,7 @@ if __name__ == '__main__':
     d = Point(4.5, 70)
     e = Point(5.9, 80)
     f = Point(4.1, 89)
-    g = Point(8.9, 150)
-    
+    g = Point(8.9, 150)    
     
     lista = [a,b,c,d,e,f,g]
     calculate(lista)
