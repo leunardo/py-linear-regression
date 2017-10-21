@@ -6,4 +6,6 @@ This is a very simple implementation of linear regression with python, for acade
 
 ### Formula used:
 
-![Image showing the formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/94efdef81afc2849c46f36feda47fa89c3373584)
+![Image showing part of the formula the formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/94efdef81afc2849c46f36feda47fa89c3373584)
+
+![Image showing the rest of the formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/e9b54bf352b3001b5540236b85a33e4030428ccf)
