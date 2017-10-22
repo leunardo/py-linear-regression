@@ -25,6 +25,7 @@ def calculate(points):
     print('-' * 90)
     print(f'The sum of points { points } is:')
     print(f'f(x) = { a } * x + { b }')
+    return (a,b)
 
 if __name__ == '__main__':
     a = Point(2.3, 89)
